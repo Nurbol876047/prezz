@@ -11,12 +11,13 @@ npm install
 npm run dev        # http://localhost:3000
 ```
 
-Production:
+Production / статический хостинг (Render Static Site, GitHub Pages и т.п.):
 
 ```bash
-npm run build
-npm start
+npm run build      # статический экспорт → папка out/
 ```
+
+Render: Build Command `npm install && npm run build`, Publish Directory `out`.
 
 ## Управление
 
